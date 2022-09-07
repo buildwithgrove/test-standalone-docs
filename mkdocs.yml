@@ -1,0 +1,8 @@
+site_name: "test_standalone_documentation"
+site_description: "Test standalone documentation"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

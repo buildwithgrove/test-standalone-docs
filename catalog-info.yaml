@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test_standalone_documentation"
+  description: "Test standalone documentation"
+  annotations:
+    github.com/project-slug: pokt-foundation/test-standalone-docs
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "devops"
